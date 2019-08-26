@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+
+    text-align: center
+}
+
+html {
+    background-color: #9900cc;
+
+    color: white;
+
+    font-size: 2em;
+
+    font-family: 'Allerta Stencil', sans-serif;
+
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D4AF37;
+    outline-color: black;
+    outline: inherit;
+    height: px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
